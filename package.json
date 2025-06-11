@@ -2,6 +2,7 @@
   "name": "mernstack",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js"
@@ -11,9 +12,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "bcryptjs": "^3.0.2",
     "colors": "^1.4.0",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.15.1"
   },
   "devDependencies": {
